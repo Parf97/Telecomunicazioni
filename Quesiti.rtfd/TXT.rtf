@@ -1,0 +1,1116 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf600
+{\fonttbl\f0\froman\fcharset0 TimesNewRomanPSMT;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red192\green192\blue192;\red191\green191\blue191;
+}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\csgenericrgb\c75294\c75294\c75294;\csgray\c79525;
+}
+{\info
+{\author Valentin Mihaila}}\paperw11900\paperh16840\margl1020\margr1020\margb280\margt1360\vieww28600\viewh15440\viewkind0
+\deftab720
+\pard\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\f0\i\b\fs48 \cf0 Libro Cuomo\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\b0\fs24 \cf0 \ul \ulc0 \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\i0 \cf0 \ulnone QUESITO 1\
+D: In un'architettura di comunicazione, le entit\'e0 di un dato Strato appartenenti allo stesso sistema:\
+R: Non hanno esigenze di comunicazione reciproca nell'ambito della rappresentativit\'e0 del modello.\
+QUESITO 2\
+D: In un'architettura di comunicazione, le entit\'e0 alla pari di un dato Strato N appartenenti a sistemi diversi: \
+R: Comunicano direttamente solo con le entit\'e0 degli strati adiacenti N+1 e N-1.\
+QUESITO 3\
+D: In un'architettura di comunicazione le entit\'e0 appartenenti a strati adiacenti: \
+R: Comunicano direttamente tra loro se appartengono allo stesso sistema.\
+QUESITO 4\
+D: In un sistema di origine di un'architettura di comunicazione di tipo stratificato il flusso informativo attraversa i sottosistemi componenti:\
+R: In senso gerarchico decrescente. \
+QUESITO 5\
+D: In un sistema di destinazione di un'architettura di comunicazione di tipo stratificato, il flusso informativo attraversa i sottosistemi componenti:\
+R: In senso gerarchico crescente. \
+QUESITO 6\
+D: In un "sistema intermedio" di un'architettura di comunicazione di tipo stratificato\
+e con riferimento alla sua interfaccia d'ingresso, il flusso informativo attraversa i sottosistemi componenti: \
+R: In senso gerarchico crescente.\
+QUESITO 7\
+D: In un \'93sistema intermedio" di un'architettura di comunicazione di tipo stratificato e con riferimento alla sua interfaccia di uscita, il flusso informativo attraversa i sottosistemi componenti:\
+R: In senso gerarchico decrescente. \
+QUESITO 8\
+D: Il servizio fornito da un generico strato \'e8 definito in modo:\
+R: Del tutto indipendente dalle procedure con cui \'e8 effettivamente realizzato. \
+QUESITO 9\
+D: Si desidera utilizzare in modo condiviso una risorsa di trasferimento con modalit\'e0 di multiplazione dinamica. Se i servizi applicativi hanno requisiti di tempo-reale, quale dimensione di buffer di multiplazione \'e8 conveniente per il trattamento delle contese di utilizzazione?\
+R: Dimensione nulla. \
+QUESITO 10\
+D: Con riferimento ad un\'92operazione di multiplazione dinamica la trasparenza temporale peggiora se: \
+R: Le contese di utilizzazione sono a ritardo.\
+QUESITO 11\
+D: Con riferimento all\'92operazione di multiplazione dinamica:\
+R: Si possono verificare contese di utilizzazione quando il canale multiplato \'e8 impegnato e quindi non disponibile per il trasferimento immediato di una unit\'e0 informativa.\
+QUESITO 12\
+D: Con riferimento ad un'operazione di multiplazione dinamica, l\'92integrit\'e0 informativa:\
+R. Peggiora se le contese di utilizzazione sono risolte a perdita. \
+QUESITO 13\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 D: Si desidera utilizzare in modo condiviso una risorsa di trasferimento con modalit\'e0 di multiplazione dinamica. Se i servizi applicativi hanno requisiti di integrit\'e0 informativa, quale dimensione di buffer di multiplazione \'e8 conveniente per il trattamento delle contese di utilizzazione?\
+R: Dimensione molto elevata. \
+QUESITO 14\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 D: II grado di trasparenza temporale di una rete di telecomunicazioni dipende in primo luogo: \
+R: Dalle componenti di ritardo variabili introdotte dal modo di trasferimento scelto.\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 QUESITO 15\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 D: Da un punto di vista prestazionale, un modo di trasferimento a pacchetto \'e8 indicato: \
+R: quando le sorgenti di traffico sono prevalentemente intermittenti.\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 QUESITO 16\
+D: Uno schema di multiplazione pu\'f2 evitare di identificare in modo esplicito le unit\'e0 informative (cio\'e8 di attribuire ad ognuna una specifica etichetta che ne consenta, ad esempio, l'instradamento):\
+R: Se adotta una multiplazione con asse dei tempi suddiviso e con organizzazione in trama anche se ogni unit\'e0 informativa non \'e8 delineata da opportuni campi posti rispettivamente all'inizio e alla fine dell'unit\'e0 informativa stessa.\
+QUESITO 17\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 D: Una multiplazione statica opera su un canale suddiviso in Intervalli Temporali (IT) e organizzato in trame. La trama ha la durata di 0,5\uc0\u956 s. Ciascun IT contiene 10 bit. Qual \'e8 il numero di IT che debbono essere assegnati per servire con sovramultiplazione una sorgente continua che emette al ritmo binario di 35Mbit/s?\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 R: 2 IT.\
+QUESITO 18\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 D: Una multiplazione statica opera su un canale suddiviso in Intervalli Temporali (IT) e organizzato in trame. La trama ha la durata di 0,5\uc0\u956 s. Ciascun IT contiene 10 bit. Se si opera una sotto-multiplazione con l'assegnazione di un IT a cadenza di multitrama, qual \'e8 il numero di trame-base di cui \'e8 composta la multitrama necessaria per servire una sorgente continua che emette al ritmo binario di 5,1 Mbit/s?\
+R: 3 trame.\
+QUESITO 19\
+D: Uno schema di multiplazione statica presenta una trama che ha durata di 2,5ms. Se nell'ambito di questo schema si desidera effettuare una sottomultiplazione a frazione di IT, qual \'e8 il numero di bit che devono essere assegnati in un IT a periodicit\'e0 di trama-base per realizzare un canale di capacit\'e0 inferiore a quella del canale-base e maggiore a 5 kbit/s?\
+R: 13 bit.\
+QUESITO 20\
+D: Il canale di uscita di un multiplatore dinamico \'e8 organizzato a trame e opera con una capacit\'e0 che \'e8 uguale a 8 Mbit/s. Se ogni trama contiene 300 bit, quante trame devono essere impegnate per trasferire un pacchetto sapendo che il tempo di trasmissione di questo pacchetto \'e8 di 0,1ms?\
+R: 3 trame.\
+QUESITO 21\
+D: Una tecnica di accesso multiplo statica:\
+R: Non d\'e0 mai luogo a collisioni \
+QUESITO 22\
+D: Nel caso si usi una tecnica di accesso multiplo dinamica, il protocollo MAC: \
+R: \'e8 necessario per svolgere la funzione di coordinamento nella condivisione dinamica della capacit\'e0 del mezzo multiaccesso.\
+QUESITO 23\
+D: La portata media realizzabile in un mezzo multiaccesso mediante un dato protocollo MAC dipende:\
+R: dal carico (numero di pacchetti offerte al secondo) generato dalle stazioni e dalle procedure del protocollo stesso.\
+QUESITO 24\
+D: La massima portata media di un protocollo MAC pu\'f2 essere resa prossima alla capacit\'e0 di trasferimento del mezzo:\
+R: Se il ritardo di propagazione \'e8 sufficientemente piccolo rispetto al tempo di trasmissione di una MAC- PDU.\
+\
+QUESITO 25\
+D: In una LAN, che opera con il protocollo MAC CSMA/CD, la capacit\'e0 di trasferimento e la lunghezza del mezzo sono uguali a 10 Mbit/s e 0,5 km rispettivamente. Tenendo conto che la velocit\'e0 di propagazione del mezzo \'e8 di 200000 km/s, qual \'e8 la lunghezza minima di una trama MAC?\
+R: 50 bit.\
+QUESITO 26\
+D: In un mezzo multiaccesso con accesso multiplo perfetto il ritardo di propagazione massimo \'e8 0,1 ms, la lunghezza delle MAC PDU \'e8 1024 byte e il ritmo binario di trasmissione \'e8 100 Mbit/s. II valore massimo del coefficiente di utilizzazione del mezzo multiaccesso \'e8:\
+R: 0,45.\
+QUESITO 27\
+D: L'elemento chiave per evitare il reiterarsi di collisioni in un accesso multiplo casuale \'e8:\
+R: la casualizzazione della durata dell'intervallo di tempo di attesa prima di tentare la nuova emissione (back-off).\
+QUESITO 28\
+D: In un protocollo ALOHA non slottato, la trasmissione di una MAC PDU dura 10ms a partire dall'istante t0 l'intervallo di vulnerabilit\'e0 associato a questa MAC PDU \'e8:\
+R: [t0-10ms, t0+10ms].\
+QUESITO 29\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 D: In un protocollo slotted ALOHA la durata dello slot \'e8 1ms. La portata media massima normalizzata \'e8 0,15. Questo significa che Il valore medio del numero di MAC PDU che sono trasferite con successo \'e8 al massimo: \
+R: 150 PDU/s.\
+QUESITO 30\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 D: In un protocollo CSMA la durata della trasmissione di una PDU \'e8 10ms e il valore massimo del tempo di propagazione sul mezzo multiaccesso \'e8 0,1 ms. L'intervallo di vulnerabilit\'e0 associato alla PDU \'e8:\
+R: 0,2ms.\
+QUESITO 31\
+D: Allo scopo di abilitare la Collision Detection in un protocollo CSMA/CD occorre:\
+R: Che le MAC PDU abbiano una lunghezza minima tale che la loro trasmissione duri almeno quanto l'intervallo di vulnerabilit\'e0 pi\'f9 il tempo di rivelazione della collisione.\
+QUESITO 32\
+D: Si consideri un accesso multiplo perfetto con massimo ritardo di propagazione uguale a 0,1ms e ritmo binario di trasmissione sul mezzo multiaccesso uguale a 100 Mbit/s. Per ottenere una utilizzazione massima di almeno l\'9280 per cento occorre che la lunghezza delle PDU (supposta costante) sia:\
+R: non inferiore a 5000 byte. \
+QUESITO 33\
+D: In un accesso multiplo slotted ALOHA la portata media normalizzata in condizioni stazionarie (probabilit\'e0 di successo della trasmissione) \'e8 0,2 e il ritmo binario sul mezzo multiaccesso \'e8 1,25 Mbit/s. Qual \'e8 il numero massimo di stazioni che possono competere affinch\'e9 ogni stazione possa raggiungere una portata uguale a 7 kbyte/s?\
+R: 4.\
+QUESITO 34\
+D: Un Bridge \'e8 connesso a tre segmenti di LAN, S1, S2 e S3. II Bridge riceve una trama MAC dal segmento S3, indirizzata ad una stazione il cui indirizzo non figura nella tabella del bridge. Allora il bridge:\
+R: Rilancia la trama sui segmenti S1 e S2.\
+ QUESITO 35\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 D: II campo FCS nelle trame Ethernet serve:\
+R: A verificare la presenza di errori nella trama ricevuta e, nel caso si riveli errata, scartarla.\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 \
+QUESITO 36\
+D: Il motivo per cui nel protocollo MAC Ethernet il tempo di back-off si raddoppia ad ogni collisione successiva \'e8:\
+R: Tentare di risolvere le collisioni, distribuendo i tentativi di ritrasmissione delle stazioni che hanno colliso su un intervallo di tempo pi\'f9 grande (in particolare, doppio rispetto a quello precedente).\
+QUESITO 37\
+D: Due segmenti di LAN sono connessi mediante un ripetitore multiporta (spesso denominato "hub"). I due segmenti:\
+R: Formano un unico dominio di collisione. \
+QUESITO 38\
+D: In una LAN, che opera con il protocollo MAC CSMA/CD, la capacit\'e0 di trasferimento e la lunghezza del mezzo sono uguali a 1000 Mbit/s e 1 km rispettivamente. Sapendo che la lunghezza minima di una trama MAC \'e8 uguale a 10000 bit, qual \'e8 la velocit\'e0 di propagazione sui mezzo trasmissivo?\
+R: 200000 km/s\
+QUESITO 39\
+D: In una accesso multiplo CSMA/CD il ritmo binario di trasmissione sul mezzo multiaccesso \'e8 1 Gbit/s, il valore massimo del ritardo di propagazione del mezzo multiaccesso \'e8 50 \uc0\u956 s e il tempo necessario per\
+rivelare le collisioni \'e8 5 \uc0\u956 s. Ne segue che il valore della lunghezza minima delle MAC PDU deve essere: \
+R: Non inferiore a 13125 byte.\
+QUESITO 40\
+D: In una LAN tutte le 8 stazioni connesse ad un segmento S1 hanno sempre PDU da inviare e condividono equamente la portata media massima della LAN, che, in condizioni stazionarie, \'e8 2,4 Mbit/s. Al posto di una delle stazioni si mette un bridge che collega S1 ad un altro segmento di LAN, S2, comprendente altre 8 stazioni (escluso il bridge). Se tutto il traffico generato in S2 \'e8 diretto a stazioni di S1, la massima portata realizzata da ognuna delle otto stazioni di S2 \'e8:\
+R: 37,5 kbit/s.\
+QUESITO 41\
+D: Le funzioni essenziali di un protocollo di strato di collegamento, quelle cio\'e8 senza le quali il protocollo non pu\'f2 funzionare, a prescindere dalle prestazioni del protocollo stesso, sono:\
+R: La delimitazione.\
+QUESITO 42\
+D: Con riferimento ad un protocollo di strato di collegamento, la prima operazione svolta dal ricevitore appena delimitata una trama consiste nel:\
+R: Verificare la correttezza della trama ricevuta, utilizzando il campo di controllo di errore.\
+QUESITO 43\
+D: Un protocollo per il recupero di errore di tipo STOP&WAIT:\
+R: Usa le risorse trasmissive con una efficienza che aumenta all'aumentare del tempo di trasmissione di una trama in assenza di errori di trasmissione.\
+QUESITO 44\
+D:\kerning1\expnd-1\expndtw-5
+ \kerning1\expnd0\expndtw0 In\kerning1\expnd-1\expndtw-4
+ \kerning1\expnd0\expndtw0 una\kerning1\expnd-1\expndtw-3
+ \kerning1\expnd0\expndtw0 procedura\kerning1\expnd-1\expndtw-3
+ \kerning1\expnd0\expndtw0 di\kerning1\expnd-1\expndtw-1
+ \kerning1\expnd0\expndtw0 recupero d'errore\kerning1\expnd-1\expndtw-3
+ \kerning1\expnd0\expndtw0 si\kerning1\expnd-1\expndtw-1
+ \kerning1\expnd0\expndtw0 adotta\kerning1\expnd-1\expndtw-3
+ \kerning1\expnd0\expndtw0 un\kerning1\expnd0\expndtw1
+ \kerning1\expnd0\expndtw0 modulo\kerning1\expnd-1\expndtw-3
+ \kerning1\expnd0\expndtw0 di\kerning1\expnd-1\expndtw-1
+ \kerning1\expnd0\expndtw0 numerazione\kerning1\expnd-1\expndtw-3
+ \kerning1\expnd0\expndtw0 uguale\kerning1\expnd-1\expndtw-3
+ \kerning1\expnd0\expndtw0 a\kerning1\expnd-1\expndtw-2
+ \kerning1\expnd0\expndtw0 8.\kerning1\expnd-1\expndtw-2
+ \kerning1\expnd0\expndtw0 Si\kerning1\expnd-1\expndtw-2
+ \kerning1\expnd0\expndtw0 ipotizza\kerning1\expnd-1\expndtw-3
+ \kerning1\expnd0\expndtw0 che\kerning1\expnd-1\expndtw-2
+ \kerning1\expnd0\expndtw0 una delle due entit\'e0 (A) utilizzi una finestra in emissione che ha larghezza 3 e che questa abbia in un dato istante limite inferiore uguale a 5. Come reagisce A ricevendo una PDU con NR (numero di sequenza in ricezione = 7)\kerning1\expnd-2\expndtw-7
+ \kerning1\expnd0\expndtw0 ?\
+R: Aggiorna il limite inferiore al valore 7. \
+QUESITO 45\
+D: In una procedura di recupero d'errore si adotta un modulo di numerazione uguale a 8. Si ipotizza che una delle due entit\'e0 (B) utilizzi una finestra in ricezione di larghezza unitaria. L'ultimo numero di sequenza in ricezione emesso da B sia uguale a 5. Come reagisce B ricevendo da A una PDU riconosciuta corretta con NS=5?\
+R: Accetta la PDCI, la riscontra ed \'e8 abilitato ad incrementare NR di uno \
+QUESITO 46\
+D: Con riferimento allo strato di collegamento, un protocollo ARQ del tipo SELECTIVE REPEAT rispetto ad uno del tipo STOP&WAIT:\
+R: Ha prestazioni migliori in termini di efficienza di utilizzazione del canale trasmissivo al prezzo di una maggiore complessit\'e0.\
+QUESITO 47\
+D: Si consideri il trasferimento di dati tra le entit\'e0 di strato di collegamento A e B, nel verso da A a B, mediante un protocollo STOP&WAIT. Si supponga che: a) ogni trama comprenda 16 byte di controllo e fino a 360 byte di dati di utente; b) le trame di riscontro non contengano dati di utente ma solo byte di controllo; c) il ritardo di propagazione dell'interfaccia sia di 500 \uc0\u956 s; d) la capacit\'e0 di trasferimento a disposizione per ognuno dei due versi sia di 64 kbit/s. In assenza di ritrasmissioni, qual \'e8 il tempo necessario per completare il trasferimento di 72000 byte di utente da A a\kerning1\expnd-4\expndtw-18
+ \kerning1\expnd0\expndtw0 B?\
+R: 10s.\
+QUESITO 48\
+D: In un protocollo per il controllo d'errore operante su un canale con capacit\'e0 uguale a 5 Mbit/s vengono trasferite trame con una lunghezza uguale a 1200 bit. Se in emissione si adotta una finestra, qual \'e8 la larghezza di questa affinch\'e9 l'emissione avvenga senza soluzione di continuit\'e0 quando il tempo impiegato da un bit per trasferirsi da un'estremit\'e0 all'altra del canale \'e8 uguale a 0,5 ms?\
+R: 6.\
+QUESITO 49\
+D: Quanti indirizzi IP globali sono associati ad un elemento di Internet?\
+R: Tanti indirizzi quante sono le interfacce verso sotto-reti diverse a cui l'elemento \'e8 connesso. \
+QUESITO 50\
+D: In Internet, la traduzione da indirizzo IP globale ad indirizzo locale:\
+R: \'e8 necessaria in corrispondenza di ogni sotto-rete attraversata (ivi incluse quella di origine e di destinazione).\
+QUESITO 51\
+D: L'interfaccia tra un Host di Internet e la sotto-rete cui \'e8 connesso:\
+R: Deve essere individuato sia attraverso un indirizzo IP globale, che attraverso un indirizzo locale\
+QUESITO 52\
+D: Le interfacce tra un Router di Internet e le sotto-reti cui \'e8 connesso:\
+R: devono essere individuate sia attraverso indirizzi IP globali, che attraverso indirizzi locali. \
+QUESITO 53\
+D: Qual \'e8 il motivo per cui, in Internet, pu\'f2 essere preferibile effettuare un indirizzamento a tre livelli rispetto ad uno a due livelli?\
+R: Per ridurre gli sprechi dovuti ad indirizzi non utilizzati nello schema a due livelli. \
+QUESITO 54\
+D: La gerarchizzazione dello schema di indirizzamento in Internet \'e8 in primo luogo finalizzata: \
+R: alla semplificazione delle operazioni di instradamento.\
+QUESITO 55\
+D: Nell' indirizzamento in Internet la maschera di sotto-rete:\
+R: serve a rendere noto ad ogni sistema in che modo il suo indirizzo IP \'e8 suddiviso. \
+QUESITO 56\
+D: L'indirizzamento in IP:\
+R: \'e8 la funzione che assegna identificativi univoci ad ogni interfaccia tra un sistema IP e una sotto-rete. \
+QUESITO 57\
+D: Un Router di una inter-rete IP \'e8 direttamente connesso a tre sotto-reti diverse; gli indirizzi IP associati ad ognuna delle tre interfacce possono essere i seguenti:\
+R: 190.224.31.8, 143.120.11.36, 155.178.95.94\
+QUESITO 58\
+D: A quale classe appartiene il seguente indirizzo IP: 102.23.25.4? \
+R: Classe A.\
+QUESITO 59\
+D: A quale classe appartiene il seguente indirizzo IP: 131.100.26.58? \
+R: Classe B.\
+QUESITO 60\
+D: Quante sono le sotto-reti che al massimo possono essere indirizzate a partire da un indirizzo di classe C utilizzando la seguente maschera: 255.255.255.224?\
+R: 8.\
+QUESITO 61\
+D: Quanti sono gli Host che al massimo possono essere indirizzati in una sotto-rete individuata a partire da un indirizzo di classe C utilizzando la seguente maschera: 255.255.255.128 (si considerino nel numero di Host indirizzabili anche gli indirizzi IP riservati)?\
+R: 128.\
+QUESITO 62\
+D: Un'organizzazione ha ricevuto sei indirizzi di classe C a partire da X.Y.80.0. Qual' \'e8 la maschera di super- rete?\
+R: 255.255.248.0\
+QUESITO 63\
+D: Quale azione viene intrapresa da un Router se l'intestazione di un datagramma viene rivelato affetto da errore?\
+R: il datagramma \'e8 scartato. \
+QUESITO 64\
+D: In una rete IP che utilizza il protocollo RIP, che tipo di conoscenza ha un Router riguardo i percorsi verso una generica sotto-rete?\
+R: Conosce solo il peso dei possibili cammini e determina l'indirizzo del Router successivo. \
+QUESITO 65\
+D: In una rete IP che utilizza il protocollo OSPF, che tipo di conoscenza ha un router riguardo i percorsi verso una generica sotto-rete?\
+R: Conosce completamente i possibili cammini, ma utilizza solo l'informazione riguardo il Router successivo sul cammino a peso minimo.\
+QUESITO 66\
+D: Un Router di una inter-rete IP che riceve un datagramma con indirizzo di sorgente SRC e indirizzo di destinazione DST:\
+R: una volta verificato che DST != Router e che DST non \'e8 direttamente connesso, esamina se \'e8 in grado di instradare il datagramma verso la destinazione mediante consultazione della propria tabella di instradamento IP; in caso contrario scarta il datagramma e notifica questo evento a SRC.\
+QUESITO 67\
+D: Perch\'e9 il protocollo BGP non prevede l'uso di metriche per la scelta del cammino ottimale tra AS d'origine e AS di destinazione?\
+R: perch\'e9 si tratta di un protocollo EGP. \
+QUESITO 68\
+D: Quale tra le seguenti \'e8 una differenza tra gli algoritmi di Bellman-Ford e di Dijkstra?\
+R: Nella sua applicazione l'algoritmo di Bellman-Ford richiede un minore occupazione di memoria in ogni nodo.\
+\pard\pardeftab720\partightenfactor0
+\cf2 \expnd0\expndtw0\kerning0
+QUESITO 69 \
+D:Supponendo che il Router R1 abbia la seguente tabella di instradamento, si chiede di determinare la rete in cui avviene un corretto instradamento dei datagrammi IP. \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 \kerning1\expnd0\expndtw0 R: Rete 1\
+\
+\
+\
+\
+\
+\
+QUESITO 70\
+D: Dati i seguenti spazi di indirizzamento IP definiti da: \
+200.122.87.0/26\
+200.122.87.192/26\
+200.122.87.128/26\
+200.122.87.64/26.\
+Utilizzando la tecnica del supernetting risulta che:\
+R: L'unione degli spazi assegnati \'e8 equivalente allo spazio definito da 200.122.87.0/24.\
+QUESITO 71\
+D: Dati i seguenti spazi di indirizzamento IP definiti da:\
+211.0.23.0/26\
+211.0.23.192/26\
+211.0.23.128/26\
+Utilizzando la tecnica del supernetting risulta che:\
+R: Non \'e8 possibile individuare, attraverso una maschera pi\'f9 corta, l'unione degli spazi assegnati.\
+QUESITO 72\
+D: A partire dallo spazio di indirizzi IP definito da 195.36.128.0/22, utilizzando maschere di lunghezza variabile, si vuole definire un insieme di sotto-reti.\
+Supponendo che ci sia una sotto-rete capace di accogliere fino a 254 Host, il numero massimo di sotto-reti in grado di ospitare fino a 30 Host risulta:\
+R: 24.\
+QUESITO 73\
+D: A partire dallo spazio di indirizzi IP definito da 195.36.128.0/24, utilizzando maschere di lunghezza variabile, si vuole definire un insieme di sotto-reti. Supponendo che ci sia una sotto-rete capace di accogliere fino a 126 Host, il numero massimo di sotto-reti in grado di ospitare fino a 30 Host risulta: R: 4.\
+QUESITO 74\
+D: A partire dallo spazio di indirizzi IP definito da 195.36.128.0/24, utilizzando maschere di lunghezza variabile, si vuole definire un insieme di sotto-reti. Supponendo che ci siano 2 sotto-reti capaci di accogliere fino a 62 Host, il numero massimo di sotto-reti in grado di ospitare fino a 30 Host risulta:\
+R: 4.\
+QUESITO 75\
+D: A partire dallo spazio di indirizzi IP definito da 195.36.128.0/24, utilizzando maschere di lunghezza variabile, si vuole definire un insieme di sotto-reti. Supponendo che ci siano 1 sotto-rete capace di accogliere fino a 126 Host e un'altra capace di accogliere fino a 62 Host il numero massimo di sotto-reti in grado di ospitare fino a 30 Host risulta:\
+R: 2.\
+QUESITO 76\
+D: Determinare quale tra i seguenti indirizzi appartiene allo spazio di indirizzamento definito da 151.100.48.0/27:\
+R:\kerning1\expnd-3\expndtw-14
+ \kerning1\expnd0\expndtw0 151.100.48.30\
+QUESITO 77\
+D: Nel protocollo TCP l'Acknowledgement Number 2000 significa che si \'e8 verificata una ricezione corretta: \
+R: fino all'ottetto di numero d'ordine 1999.\
+QUESITO 78\
+D: Nel protocollo TCP una entit\'e0 TCP emette un segmento con SN (Sequence Number) = 1000 comprendente, oltre all'intestazione (20 ottetti), un campo dati che include 200 ottetti. Qual \'e8 l'SN del segmento immediatamente successivo?\
+R: 1200.\
+\
+\
+QUESITO 79\
+D: In una connessione TCP l'ultimo aggiornamento della dimensione della finestra \'e8 di 10000 ottetti, mentre l'ultimo Acknowledgment Number (AN) ricevuto \'e8 22001. Se l'entit\'e0 TCP A riceve un segmento con AN=24002 senza aggiornamenti sulla dimensione della finestra, come viene modificata la finestra in emissione?\
+R: Il limite inferiore viene spostato in 24002, mentre il limite superiore viene posizionato in 34001.\
+QUESITO 80\
+D: Il valore del time-out associato ad un segmento TCP:\
+R:\'e8 calcolato secondo un algoritmo adattivo che tiene conto dei tempi di "risposta" della rete (Round Trip Time).\
+QUESITO 81\
+D: Controllo di flusso e controllo di congestione nel protocollo TCP:\
+R: riguardano rispettivamente la protezione dal sovraccarico delle risorse del destinatario e della rete.\
+QUESITO 82\
+D. Nel protocollo TCP, la ricezione di un riscontro di un segmento trasmesso tre volte (una trasmissione e due ritrasmissioni) quale valore del RTT determina:\
+R: nessuno.\
+QUESITO 83\
+D: Se durante una trasmissione di segmenti da un Host A ad un Host B in una connessione TCP vengono persi tre riscontri consecutivi emessi dall'Host B, quali delle seguenti azioni saranno probabilmente intraprese nell'ambito della connessione?\
+R: nessuna azione se un riscontro cumulativo emesso da B arriva prima dell'esaurimento di un qualsiasi timeout.\
+QUESITO 84\
+D: Si consideri una connessione TCP attiva tra due entit\'e0 A e B. Se il campo window dell'ultimo segmento ricevuto da A fornisce una larghezza di finestra uguale a 1000 byte, che cosa accade se A invia un segmento di lunghezza uguale a 1200 byte?\
+R: la circostanza non si pu\'f2 verificare \
+QUESITO 85\
+D: Si supponga che in una connessione TCP tra due Host A e B, la finestra in trasmissione sia costante e uguale a 20000 byte, il ritmo binario di trasmissione sia uguale a 2 Mbit/s e che il tempo di propagazione tra A e B sia costante e uguale a 100 ms. Nell'ipotesi che siano nulle le lunghezze degli header dei segmenti TCP e dei datagrammi IP, qual \'e8 la portata media normalizzata (throughput) della connessione TCP?\
+R: 0,400.\
+\pard\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\i\b\fs48 \cf0 \kerning1\expnd-12\expndtw-56
+\ul  \
+\pard\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 \kerning1\expnd0\expndtw0 \ulnone Quesiti compito d\'92esame 2
+\fs24 \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\i0\b0 \cf0 QUESITO 5\
+D: In un sistema intermedio (ad. esempio un router) di un\'92architettura di comunicazione di tipo stratificato e con riferimento alla sua interfaccia d\'92ingresso, il flusso informativo entrante attraversa i sottosistemi componenti:\
+R: in senso gerarchico crescente\
+QUESITO 6\
+D: La multiplazione dinamica:\
+R: pu\'f2 comportare il ritardo o la perdita di UI a causa di contese di utilizzazione\
+QUESITO 7\
+D: In una risorsa di trasferimento caratterizzata da una capacit\'e0 di C bit/s, il carico medio sulla risorsa (espresso in bit/s)\
+R: \'e8 necessariamente minore di C.\
+\
+\
+QUESITO 8\
+D: Una multiplazione statica opera su un canale suddiviso in Intervalli Temporali (IT) e organizzato in trame. La trama ha la durata di 8 ms. Ciascun IT contiene 24 bit. Qual\'92\'e8 il numero minimo di IT che debbono essere assegnati per servire con sovramultiplazione una sorgente continua che emette al ritmo binario di 28 kbit/s?\
+R: 10\
+QUESITO 9\
+D: Una tecnica di accesso multiplo con allocazione statica\
+R: pu\'f2 dare luogo a collisioni se il controllo \'e8 distribuito.\
+QUESITO 10\
+D: In una LAN, che opera con il protocollo MAC CSMA/CD, la capacit\'e0 di trasferimento e la lunghezza del mezzo sono uguali a 1000 Mbit/s e 1 km rispettivamente. Tenendo conto che la velocit\'e0 di propagazione del mezzo \'e8 di 200000 km/s e sapendo che la LAN \'e8 formata da un unico segmento, qual e\'92 la lunghezza minima di una trama MAC?\
+R: 10000 bit\
+QUESITO 11\
+D: Allo scopo di abilitare la Collision Detection in un protocollo CSMA/CD occorre\
+R: che le MAC PDU abbiano una lunghezza minima tale che la loro trasmissione duri almeno quanto l\'92intervallo di vulnerabilit\'e0 pi\'f9 il tempo di rivelazione della collisione.\
+QUESITO 12\
+D. In una procedura di recupero d\'92errore si adotta un modulo di numerazione uguale a 8. Si ipotizza che una delle due entit\'e0 (B) utilizzi una finestra in ricezione di larghezza unitaria. L\'92ultimo numero di sequenza in ricezione emesso da B sia Rnext uguale a 5. Come reagisce B ricevendo da A una PDU riconosciuta corretta con Slast=5?\
+R: Accetta la PDU, la riscontra ed \'e8 abilitato ad incrementare Rnext al valore 6.\
+QUESITO 13\
+D: Con riferimento allo strato di collegamento, un protocollo ARQ del tipo Selective Repeat rispetto ad uno del tipo Stop&Wait\
+R: ha prestazioni migliori in termini di \kerning1\expnd-1\expndtw-3
+efficienza \kerning1\expnd0\expndtw0 di utilizzazione \kerning1\expnd-1\expndtw-3
+del \kerning1\expnd0\expndtw0 canale trasmissivo al \kerning1\expnd-1\expndtw-3
+prezzo \kerning1\expnd0\expndtw0 di \kerning1\expnd-1\expndtw-3
+una \kerning1\expnd0\expndtw0 maggiore complessit\'e0.\
+QUESITO 14\
+D: I codici CRC vengono utilizzati\
+R: prevedendo un campo nell\'92intestazione dell\'92unit\'e0 informativa da trasmettere dove memorizzare i coefficienti del polinomio resto della divisione tra il polinomio i cui coefficienti sono i bit da proteggere e il polinomio generatore \
+QUESITO 15\
+D: Determinare quale tra i seguenti indirizzi appartiene allo spazio di indirizzamento definito da 151.100.58.192 / 27:\
+R: 151.100.58.220\
+QUESITO 16\
+D: Determinare quale tra le seguenti righe non \'e8 corretta ovvero non consente un corretto instradamento:\
+\pard\pardeftab720\partightenfactor0
+\cf2 \expnd0\expndtw0\kerning0
+{{\NeXTGraphic page11image3929440.png \width6402 \height1237 \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\pardeftab720\partightenfactor0
+\cf2  \cf0 \kerning1\expnd0\expndtw0 \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0   R: a\
+QUESITO 17\
+D: Il valore del time-out associato ad un segmento TCP\
+R: \'e8 calcolato secondo un algoritmo adattivo che tiene conto dei tempi di \'93risposta\'94 della rete (Round Trip Time).\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\b \cf0 \
+\pard\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\i\fs48 \cf0 ESEMPIO COMPITO ESAME 1\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\i0\b0\fs24 \cf0 QUESITO 5\
+D: Si consideri una modulazione numerica di tipo QAM in cui si trasmettono 4 simboli in un intervallo temporale T=10 ms. Qual e\'92 il ritmo binario risultante da tale modulazione?\
+R: 200 bit/s\
+QUESITO 6\
+D: Le modulazioni numeriche in banda traslata si utilizzano per multiplare piu\'92 segnali numerici sullo stesso canale. A parita\'92 di banda del segnale:\
+R: Non esiste alcuna dipendenza tra la banda del canale e il numero di segnali che possono essere trasmessi contemporaneamente\
+QUESITO 7\
+D: In un\'92architettura di comunicazione, le entit\'e0 alla pari di un dato strato N:\
+R: se sono in sistemi diversi si scambiano indirettamente unita\'92 informative passando attraverso gli strati adiacenti;\
+QUESITO 8\
+D: Sia consideri che dopo il campionamento di un brano musicale analogico di durata di 3 minuti con banda di 30 kHz si ottiene un file di dimensione di 16200 kbyte. Quanti bit a campione sono stati utilizzati nella conversione analogico digitale?\
+R: 12\
+QUESITO 9\
+D: Indicare quale affermazione e\'92 falsa. In una commutazione a pacchetto se un flusso di dati viene suddiviso in piu\'92 pacchetti:\
+R: I pacchetti appartenenti allo stesso flusso sono trattati tutti allo stesso modo\
+QUESITO 10\
+D: Si assuma che un Host A trasmetta un file ad un Host B e che il cammino dall\'92 Host A all\'92Host B sia composto da tre link operanti al ritmo di R1 = 600 kbps, R2 = 4 Mbps, and R3 = 2 Mbps.\
+Ipotizzando che non ci sia altro traffico nella rete qual e\'92 il throughput per il trasferimento del file da A a B\
+R: 600 kbps\
+QUESITO 11\
+D: In un protocollo di correzione d\'92errore di tipo ARQ GO-BACK N un entita\'92 trasmittente A con finestra in trasmissione Ws= 6 ha gia\'92 emesso le trame con numero di sequenza 4, 5, 6, 7 e riceve un riscontro con Rnext=7. Quali trame verranno emesse successivamente, supposto che A le abbia disponibili e che non sia scaduto alcun temporizzatore di trame precedenti?\
+R: le trame con numero di sequenze 8-9\
+QUESITO 12\
+D: Si consideri il seguente indirizzo di classe C 192.168.0.0/24. Si consideri la creazione di 32 sottoreti a partire da questa rete. A quale sottorete appartiene l\'92indirizzo 192.168.0.140?\
+R: alla sottorete 192.168.0.136\
+QUESITO 13\
+D: Si consideri un frammento IP avente intestazione di 20 byte, total lenght di 600 byte, bit MF (More fragments=0) e Fragment Offset=18. Qual era la lunghezza totale (Total Lenght) del pacchetto originario da cui e\'92 nato questo frammento (si ricordi che il Fragment Offset e\'92 espresso in unit\'e0 di 8 byte)?\
+R: 744\kerning1\expnd-1\expndtw-1
+ \kerning1\expnd0\expndtw0 byte\
+QUESITO 14\
+D: Si consideri un router che ha la seguente routing table\
+\pard\pardeftab720\partightenfactor0
+\cf2 \expnd0\expndtw0\kerning0
+{{\NeXTGraphic page12image5922432.png \width4095 \height1185 \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\pardeftab720\partightenfactor0
+\cf2  \cf0 \kerning1\expnd0\expndtw0 \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 R: 4\
+QUESITO 15\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 C: In una rete privata \'e8 presente un NAT avente indirizzo IP pubblico 151.100.122.3, un Host avente indirizzo privato 192.168.0.10 accede ad un server web su Porta di destinazione TCP 80 con Porta di origine TCP 1025. Quali saranno i campi \'93IP destinazione\'94 e \'93numero di porta\'94 dei segmenti TPC che il server web manda indietro all\'92Host della rete privata?\
+R: IP destinazione: 151.100.122.3, Porta di destinazione necessariamente TCP 1025\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 QUESITO 16\
+D: In una LAN, che opera con il protocollo MAC CSMA/CD, si determini la massima capacit\'e0 di trasferimento tale per cui una trama MAC di lunghezza minima 10 byte permetta il corretto funzionamento del protocollo, al fine dalla \'93collision detection\'94. Si consideri un segmento di 0,4 km con velocit\'e0 di propagazione del mezzo \'e8 di 200000 km/s.\
+R: 20\kerning1\expnd-1\expndtw-2
+ \kerning1\expnd0\expndtw0 Mbit/s\
+QUESITO 17\
+Si consideri la seguente rete in cui sono evidenziati gli indirizzi IP e gli indirizzi MAC degli Host e dei Router.\
+\pard\pardeftab720\partightenfactor0
+\cf2 \expnd0\expndtw0\kerning0
+{{\NeXTGraphic page12image5910336.jpg \width12525 \height4935 \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\pardeftab720\partightenfactor0
+\cf2  \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 \kerning1\expnd0\expndtw0 \
+R: Qual e\'92 l\'92indirizzo MAC del dispositivo con indirizzo IP 133.333.333.002?\
+\
+\pard\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\i\b\fs48 \cf0 Esame di dicembre
+\b0\fs24 \ul \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\i0 \cf0 \ulnone QUESITO 2\
+D: La multiplazione dinamica:\
+R: Pu\'f2 comportare il ritardo o la perdita di UI a causa di contese di utilizzazione\
+QUESITO 3\
+D: Una multiplazione statica opera su un canale suddiviso in intervalli Temporali (IT) e organizzato in trame. La trama ha la durata di 2 ms. Ciascun IT contiene 50 bit. Se si opera una sotto-multiplazione con l\'92assegnazione di un IT a cadenza di multitrama, qual \'e8 il numero massimo di trame-base di cui deve essere composta la multitrama necessaria per servire una sorgente continua che emette al ritmo binario di 5,2 kbit/s?\
+R: 4\
+QUESITO 4\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 D: Si consideri un meccanismo di bit stuffing in un protocollo di collegamento che identifica le trame attraverso un flag del tipo 01111110. Data la sequenza di bit di seguito riportata, perla quale gi\'e0 si \'e8 effettuato il bit stuffing, identificare il numero di unit\'e0 informative contenute tra due flag.\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 011111100111011001111101000001111101001111101001001111001111110\
+R: 1\
+QUESITO 9\
+D: Qual \'e8 la differenza tra l\'92architettura a strati definita nel modello OSI e quella internet? \
+R: Nel modello OSI gli strati sono in numero maggiore rispetto a quelli del modello internet \
+QUESITO 10\
+D: Nello Standard Ethernet per le reti locali con topologia a bus, il protocollo di accesso multiplo definito \'e8 il \
+R: Carrier Sense Multiple Access with Collision Detection (CSMA/CD)\
+QUESITO 11\
+D: Quanti indirizzi sono associati ad un elemento di una rete IP?\
+R: tanti indirizzi quante sono le interfacce verso sottoreti diverse a cui l\'92elemento \'e8 connesso\
+QUESITO 12\
+D: Quali aspetti della qualit\'e0 di servizio sono trattati dallo strato di rete in una rete IP? \
+R: Solo aspetti legati al controllo di flusso\
+QUESITO 13\
+D: Qual \'e8 il numero massimo di sottoreti che in cui pu\'f2 essere suddivisa una rete a cui e stato assegnato un indirizzo di classe C utilizzando un prefissi di lunghezza 25 bit?\
+R: 2\
+QUESITO 14\
+D: Una rete \'e8 formata da 4 sottoreti indicate con A,B,C,D il numero di host che devono essere indirizzati in ciascuna rete \'e8 uguale a NA=140, NB=132, NC=112, ND=120 [si considerino compresi anche gli indirizzi IP riservati]. Utilizzando al meglio i meccanismi di sub e supernetting, qual \'e8 il numero di blocchi di indirizzi di classe C che devono essere assegnati al router in modo da minimizzare il numero di indirizzi che rimangono non utilizzati?\
+R: 3\
+QUESITO 16\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 D: Nell\'92ipotesi di utilizzazione del protocollo DHCP per il supporto del servizio di autoconfigurazione degli host, in quale caso \'e8 in linea di principio possibile il verificarsi di assegnazione dello stesso indirizzo a due host diversi\
+R: nel caso di assegnazione temporanea degli indirizzi\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 QUESITO 17\
+D: Un area Border Router[ABR] emette I seguenti messaggi \
+R: esclusivamente Summary Link Ad\
+QUESITO 18\
+D: In una connessione TCP l\'92ultimo aggiornamento della dimensione della finestra \'e8 di 10000 ottetti,\
+mentre l\'92ultimo Acknowledgment Number (AN) ricevuto \'e8 22001. Se l\'92entit\'e0 TCP A riceve un segmento con AN=24002 senza aggiornamenti sulla dimensione della finestra, come viene modificata la finestra in emissione?\
+R: il limite inferiore viene spostato in 24002, mentre il limite superiore viene posizionato in 34001\
+QUESITO 19\
+D: Se in una connessione TCP il ritardo di attraversamento della rete \'e8 co\'85 trasmessi, il valore del Retransmission TimeOut a che valore tende?\
+R: a quattro volte il valore dell\'92RTT\
+QUESITO 19-a\
+D: L\'92identificazione del \'93socket TCP\'94 \'e8 contenuta\
+R: nell\'92 header dei segmenti TCP\
+QUESITO 20\
+D: Si supponga che in una connessione TCP tra due Host A e B il bit rate di trasmissione sia uguale a 512 kbit/s e che il tempo di propagazione tra A e B sia costante a 100 ms. Nell\'92 ipotesi che siano nulle le\
+lunghezze degli header dei segmenti TCP e dei datagrammi IP, quale valore dovrebbe assumere al minimo la finestra n trasmissione affinch\'e9 il throughput della connessione fosse unitario?\
+R: 12800 byte\
+QUESITO 6\
+D: Siano date le 4 stringhe di 4 bit riportate di seguito: b1)1001; b2)1111;b3)0110;b4)1010. Qual \'e8 la parola di codice calcolate mediante l\'92internet checksum?\
+R: 0 1 0 1\
+QUESITO 7\
+D: nel caso di utilizzo dei codici CRC, in ricezione\
+R: se gli errori sono tali per cui il polinomio degli errori E(x) costituito da coefficienti uguali ad 1 in corrispondenza dei bit errati e 0 in corrispondenza dei bit corretti \'e8 divisibile per il polinomio generatore non si \'e8 in grado di rivelare errori.\
+QUESITO 8\
+D: Si consideri un protocollo di controllo d\'92errore di tipo GO-BACK-N. Sia 1) ritardo di propagazione pari a \'be del tempo di trasmissione di una trama; 2) il tempo di trasmissione dei riscontri pari a \'bd del tempo di\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 trasmissione di una trama e l\'92elaborazione dei nodi trascurabile. Quanto deve essere la dimensione minima della finestra in emissione Ws affinch\'e8, se non si verificano errori, il trasmettitore sia in grado di tramettere trame continuamente (senza soluzione di continuit\'e0)\
+R: Ws=2\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 QUESITO 6\
+D: Siano date le 4 stringhe di 4 bit riportate di seguito: b1)1011; b2)1111;b3)0110;b4)1010. Qual \'e8 la parola di codice calcolate mediante l\'92internet checksum?\
+R: 0 0 1 1\
+QUESITO 7 (forse)\
+D: nel caso di utilizzo dei codici CRC, in ricezione\
+R: se la soma dei polinomi i cui coefficienti sono rispettivamente i bit da proteggere e i bit del campo CRC \'e8 divisibile per il polinomio generatore si assume che non vi siano stati errori\
+Forse la risposta \'e8 un\'92altra, se i polinomi i cui coefficienti sono i bit da proteggere eseguiti del campo CRC \'e8 divisibile per il polinomio generatore si assume che non vi siano stati errori\
+QUESITO 8\
+D: Si consideri un protocollo di controllo d\'92errore di tipo GO-BACK-N. Sia 1) 30 s ritardo di trasmissione di una trama; 2) il tempo di propagazione pari a 40s. 3) il tempo di trasmissione dei riscontri pari a 20s e\
+l\'92elaborazione dei nodi trascurabile. Quanto deve essere la dimensione minima della finestra in emissione Ws affinch\'e8, se non si verificano errori, il trasmettitore sia in grado di tramettere trame continuamente (senza soluzione di continuit\'e0)\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 R: Ws=5\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 QUESITO 9\
+D: In che cosa consiste la funzione di segmentazione nel trasferimento informativo tra due entit\'e0 di strato n \
+R: la frammentazione delle SDU in parti la cui lunghezza \'e8 compatibile con il formato delle PDU di stato \
+QUESITO 10\
+D: Quali delle seguenti affermazioni non \'e8 vera nel caso di uno switch ? \
+R: Costruisce e gestisce tabelle di indirizzi\
+QUESITO 11\
+D: l\'92evoluzione dello schema di indirizzamento in internet \'85\
+R: \'e8 guidata dall\'92esigenza di realizzare strategie di instradamento efficienti\
+QUESITO 12\
+D: nell\'92indirizzamento in internet la maschera di sotto-rete:\
+R: serve a rendere noto ad ogni sistema in che modo il suo indirizzo IP \'e8 suddiviso tra net_id e host_id\
+QUESITO 13\
+D: Quante sono le sottoreti che al massimo possono essere indirizzate a partire da un indirizzo di classe C utilizzando la seguente maschera: 225.255.255.224?\
+R: 8\
+\
+\
+\
+\
+QUESITO 14\
+D: Una rete \'e8 formata da 5 sottoreti indicate con A,B,C,D,E il numero di nodi che devono essere indirizzati in ciascuna rete \'e8 uguale a NA=9, NB=34, NC=27, ND=8, NE=7 [si considerino compresi anche gli indirizzi IP riservati]. Supponendo che le cinque sottoreti debbano essere viste da internet come un\'92unica rete, in quanti bit deve essere scomposto il prefisso che deve essere assegnato alla rete in modo da minimizzare il numero complessivo di indirizzi assegnati ma non utilizzati?\
+R: 25\
+QUESITO 15\
+D: Sulla base dello schema di indirizzamento mostrato in figura e delle informazioni di routing annunciate dai router di bord.. BR1 e BR2 verso il router di Backbone BB, attraverso quale rete avviene l\'92instradamento dei datagrammi IP provenienti da internet verso l\'92organizzazione Org. X ?\
+\pard\pardeftab720\partightenfactor0
+\cf2 \expnd0\expndtw0\kerning0
+{{\NeXTGraphic page15image3896064.jpg \width7290 \height3675 \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\pardeftab720\partightenfactor0
+\cf2  \cf0 \kerning1\expnd0\expndtw0 \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 R: attraverso la rete dello ISP2\
+QUESITO 16\
+D: un server DHCP pu\'f2 assegnare indirizzi privati? \
+R: si, ma solo in una intranet\
+QUESITO 17\
+D: Un router pu\'f2 ricevere messaggi RIP da altri router che si interfacciano sulla stessa sottorete fisica ? \
+R: si, ma solo se la sottorete sia costituita un link diretto\
+QUESITO 18\
+D: La connessione TCP \'e8 definita dalle informazioni di stato create e mantenute durante la vita della connessione\
+R: esclusivamente nei sistemi terminali\
+QUESITO 15\
+D: si consideri un router che ha la seguente routing table, verso quale porta verr\'e0 rilanciato un pacchetto entrante che rechi un destination adress uguale a 133.45.16.5\
+\pard\pardeftab720\partightenfactor0
+\cf2 \expnd0\expndtw0\kerning0
+{{\NeXTGraphic page16image3919360.jpg \width4320 \height2970 \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\pardeftab720\partightenfactor0
+\cf2  \cf0 \kerning1\expnd0\expndtw0 \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 R: 4\
+\
+\
+\
+QUESITO 17\
+D: in che cosa consistono i cammini che un BGP speaker di un AS comunica agli altri BGP speaker con cui sono instaurate le sessioni BGP\
+R: nella lista degli AS da attraversare per raggiungere una specifica sottorete\
+QUESITO 18\
+D: se durante una trasmissione di segmenti da un Host A ad un Host B in una connessione TCP vengono persi tre riscontri consecutivi emessi dall\'92host B, quali delle seguenti azioni saranno probabilmente\
+intraprese nell\'92ambito della connessione?\
+R: nessuna azione se un riscontro cumulativo emesso da B arriva prima dell\'92esaurimento di un qualsiasi timeout\
+QUESITO 16\
+D: Se in una intranet \'e8 utilizzato un dispositivo NAT per l\'92interconnessione con la rete internet pubblcia, gli host interni alla intranet posso essere raggiungi da un host esterno?\
+R: Si\
+QUESITO 17\
+D: Per quali ragioni il protocollo RIP si applica normalmente in reti di piccole dimensioni? \
+R: perch\'e9 il suo tempo di convergenza cresce al crescere delle dimensioni della rete \
+QUESITO 18\
+D: Si consideri una connessione TCP attiva tra due entit\'e0 A e B. Se il campo window dell\'92ultimo segmento ricevuto da A fornisce una larghezza di finestra uguale a 1000 byte, che cosa accade se A invia un segmento di lunghezza uguale a 1200 byte?\
+R: la circostanza non si pu\'f2 verificare\
+QUESITO 19\
+D: Se in una connessione TCP il ritardo di attraversamento della rete \'e8 costante, al crescere del numero dei segmenti trasmessi, il valore del Retransmission TimeOut a che valore tende?\
+R: a quattro volte il valore dell\'92RTT\
+QUESITO 1\
+D: Che tipo di informazioni un router invia ad un altro mediante i messaggi del protocollo IP? \
+R: La tabella di routing del router\
+QUESITO 2\
+D: Un\'92applicazione residente nell\'92 Host A scambia dati con due altre applicazioni residenti in Host distinti B e C, in quale modo l\'92 Host A distingue le due connessioni TCP utilizzate?\
+R: Dai diversi valori dei relativi socket e in particolare, dai diversi valori degli IP dei due Host B e C\
+QUESITO 3\
+D: Un\'92 entit\'e0 TCP A emette un segmento FIN per abbattere una connessione con un\'92altra entit\'e0 TCP B, quando quest\'92ultima riceve questo segmento:\
+R: Invia un segmento di riscontro e interrompe subito l\'92inoltro dei suoi dati d\'92utente\
+QUESITO 5\
+D: Nella procedura di instaurazione di una connessione TCP si considerino il primo segmento emesso dall\'92entit\'e0 iniziatrice A e quello emesso come replica dalla sua controparte B, relativamente a questi segmenti:\
+R: Non possono entrambi contenere dati d\'92utente\
+QUESITO 6\
+D: Nella instaurazione di una connessione TCP quale \'e8 il motivo per cui l\'92Initial Sequence Number \'e8 scelto in modo pseudo-casuale da entrambe le parti?\
+R: Per evitare che due segmenti con il medesimo Sequence Number appartenenti a due collegamenti diversi tra i medesimi Host siano contemporaneamente assenti\
+\
+\
+\
+\
+\
+QUESITO 7\
+D: Si supponga che in una connessione TCP tra due Host A e B, la finestra in trasmissione sia costante e uguale a 12000 byte e il bit rate di trasmissione sia uguale a 256kbit/s. Nell\'92ipotesi che siano nulle le lunghezze degli header dei segmenti TCP e dei datagrammi IP, quale valore dovrebbe assumere al massimo il tempo di propagazione tra A e B affinch\'e9 il Throughput della connessione sia unitario\
+R: 375,0 ms\
+QUESITO 8 (forse)\
+D: Nell\'92ambito di un servizio di strato con connessione\
+R: Si pu\'f2 effettuare l\'92indirizzamento con identificatori di connessione\
+Forse: si deve effettuare l\'92indirizzamento con gli indirizzi espliciti di origine e di destinazione\
+QUESITO 9\
+D: In una rete in area locale che adotta la tecnologia IEEE.802.3, uno switch:\
+R: Filtra le trame ricevute e le re-inoltra sulla base dell\'92indirizzo MAC di destinazione contenuto nell\'92intestazione delle trame\
+QUESITO 10\
+D: In una rete in area locale che adotta la tecnologia IEEE.802.3, uno switch:\
+R: Apprende la struttura locale della rete (processi di learning) tramite l\'92indirizzo MAC di sorgente contenuto nell\'92intestazione delle trame\
+QUESITO 11\
+D: Quale protocollo \'e8 utilizzato per mappare un indirizzo IP noto ad un indirizzo MAC sconosciuto? \
+R: Il protocollo ARP\
+QUESITO 12\
+D: In una rete caratterizzata dal prefisso 151.100.0.0/21, quanti Host possono essere indirizzati al massimo? \
+R: 2048\
+QUESITO 13\
+D: In una organizzazione X \'e8 stato assegnato il blocco di indirizzi 210.0.192.0/22 supponendo di adottare una subnetting con maschere di lunghezza fissa, quale \'e8 la maschera di sottorete (subnet mask) di dimensione maggiore che deve essere impiegata per creare 10 sottoreti in grado di ospitare al pi\'f9 60 terminali?\
+R: 255.255.255.192\
+QUESITO 14\
+D: In quale modo \'e8 gestita l\'92allocazione dinamica degli indirizzi nel protocollo DHCP?\
+R: Attraverso la definizione di tempi massimi di durata dell\'92assegnazione di un indirizzo\
+QUESITO 15\
+D. Se una area di un sistema autonomo OSPF supporta le tutte le alternative di \'93type of service\'94 quante metriche per ogni link devono essere gestite da un router?\
+R: 5\
+QUESITO 16\
+D: Con riferimento ad un\'92operazione di multiplazione dinamica l\'92integrit\'e0 informativa peggiora: \
+R: Se le contese di utilizzazione sono risolte a perdita\
+QUESITO 17\
+D: A partire dallo spazio di indirizzi IP definito da 195.36.128.0/24, utilizzando maschere di lunghezza variabile,\
+si vuole definire un insieme di sotto-reti. Supponendo che ci sia 1 sottorete capace di accogliere fino a 126 Host_ID e un\'92altra capace di accogliere fino a 62 Host_ID, il numero massimo di sottoreti in grado di ospitare fino a 30 Host_ID risulta:\
+R: 2\
+QUESITO 18\
+D: Il campo Protocol compreso nell\'92header di un datagramma IP identifica:\
+R: Il protocollo dello strato di trasporto a cui \'e8 indirizzata l\'92informazione\
+\
+\pard\pardeftab720\pardirnatural\qc\partightenfactor0
+
+\i\b\fs48 \cf0 Altri quesiti
+\fs24 \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+
+\i0\b0 \cf0 QUESITO 7\
+D: si consideri un router che ha la seguente routing table:\
+\pard\pardeftab720\partightenfactor0
+\cf2 \expnd0\expndtw0\kerning0
+{{\NeXTGraphic page18image6024128.jpg \width3720 \height2445 \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\pardeftab720\partightenfactor0
+\cf2  \cf0 \kerning1\expnd0\expndtw0 \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 Verso quale porta verr\'e0 rilanciato un pacchetto entrante che rechi un destination address uguale a 151.100.25.63\
+R: 1\
+QUESITO 8\
+D: In quale modo \'e8 gestita l\'92allocazione dinamica degli indirizzi nel protocollo DHCP?\
+R: attraverso la definizione di tempi massimi di una durata dell\'92assegnazione di un indirizzo\
+QUESITO 9\
+D: Se un area di un sistema autonomo OSPF supporta tutte le alternative di \'93Type of Service\'94, quante metriche per ogni link devono essere gestite da un router\
+R: 6 (5?)\
+QUESITO 1\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 D: Si supponga di avere un file di dimensione 600 kbyte. Se lo trasmetto attraverso una line che ha velocit\'e0 di 4 Mbit/s, quale deve essere il rapporto di compressione R tale per cui il file viene trasferito in meno di 20 ms?\
+R: R=60 (40 nel caso di 30 ms)\
+QUESITO 1\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 D:\kerning1\expnd-3\expndtw-15
+ \kerning1\expnd0\expndtw0 quale\kerning1\expnd-3\expndtw-13
+ \kerning1\expnd0\expndtw0 delle\kerning1\expnd-3\expndtw-13
+ \kerning1\expnd0\expndtw0 seguenti\kerning1\expnd-3\expndtw-11
+ \kerning1\expnd0\expndtw0 funzioni\kerning1\expnd-3\expndtw-12
+ \kerning1\expnd0\expndtw0 non\kerning1\expnd-3\expndtw-15
+ \kerning1\expnd0\expndtw0 pu\'f2\kerning1\expnd-3\expndtw-14
+ \kerning1\expnd0\expndtw0 essere\kerning1\expnd-3\expndtw-13
+ \kerning1\expnd0\expndtw0 eseguita\kerning1\expnd-3\expndtw-14
+ \kerning1\expnd0\expndtw0 nella\kerning1\expnd-3\expndtw-13
+ \kerning1\expnd0\expndtw0 modalit\'e0\kerning1\expnd-3\expndtw-14
+ \kerning1\expnd0\expndtw0 di\kerning1\expnd-3\expndtw-12
+ \kerning1\expnd0\expndtw0 comunicazione\kerning1\expnd-3\expndtw-12
+ \kerning1\expnd0\expndtw0 senza\kerning1\expnd-3\expndtw-14
+ \kerning1\expnd0\expndtw0 connessione? \
+R: l\'92individuazione dell\'92instradamento alla\kerning1\expnd-3\expndtw-12
+ \kerning1\expnd0\expndtw0 rete\
+QUESITO 3\
+D: Una sottorete fisica di una rete IP effettua le funzioni di indirizzamento e di instradamento? \
+R: si, entrambe\
+QUESITO 5\
+D: Quante sono le sottoreti che al massimo possono essere indirizzate a partire da un indirizzo di classe C utilizzando la seguente maschera: 225.255.255.128?\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 R: 128\
+QUESITO 1\
+D: Si supponga di avere un file di dimensione 300 kbyte. Se lo trasmetto attraverso una line che ha velocit\'e0 di 5 Mbit/s, quale deve essere il rapporto di compressione R tale per cui il file viene trasferito in meno di 24 ms?\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 R: R=40\
+QUESITO 3\
+D: Una multiplazione statica opera su un canale suddiviso in Intervalli Temporali (IT) e organizzato in trame. La trama ha la durata di 5\uc0\u956 s. Ciascun IT contiene 11 bit. Qual \'e8 il numero di IT che debbono essere assegnati per servire con sovramultiplazione una sorgente continua che emette al ritmo binario di 4,8 Mbit/s?\
+R: 3\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 \
+\
+\
+QUESITO 6\
+D: Siano date le 4 stringhe di 4 bit riportate di seguito: b1)1001; b2)1010;b3)0110;b4)1010. Qual \'e8 la parola di codice calcolate mediante l\'92internet checksum?\
+R: 1 0 1 0 (slide valerio pagina 8 per il calcolo)\
+QUESITO 6\
+D: Ad un grande internet provider (ISP) sono stati assegnati un insieme di 8192 blocchi contigui di indirizzi di classe C a partire dall\'92indirizzo 215.0.0.0, Questo ISP gestisce un insieme di 4 provider di minori dimensioni indicati con A,B,C,D, la richiesta minima di questi provider \'e8 di NA=4, NB=8, NC=64, ND=128 blocchi di indirizzi di classe C. Supponendo che l\'92ISP assegni blocchi di indirizzi contigui ad ogni provider a partire dal provider A ed in modo che ogni provider sia caratterizzato da un unico prefisso, qual \'e8 il prefisso che sar\'e0 assegnato al router del provider B\
+R: 215.0.8.0/21\
+QUESITO 8\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 D: Si consideri un protocollo di controllo d\'92errore di tipo GO-BACK-N. Sia 1) 20 s ritardo di trasmissione di una trama; 2) il tempo di propagazione pari a \'bc del tempo di trasmissione di una trama. 3) il tempo di trasmissione dei riscontri pari a 10s e l\'92elaborazione dei nodi trascurabile. Quanto deve essere la dimensione minima della finestra in emissione Ws affinch\'e8, se non si verificano errori, il trasmettitore sia in grado di tramettere trame continuamente (senza soluzione di continuit\'e0)\
+R: Ws=2\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 QUESITO 2\
+D:\kerning1\expnd-4\expndtw-16
+ \kerning1\expnd0\expndtw0 Da\kerning1\expnd-3\expndtw-14
+ \kerning1\expnd0\expndtw0 un\kerning1\expnd-3\expndtw-15
+ \kerning1\expnd0\expndtw0 punto\kerning1\expnd-3\expndtw-15
+ \kerning1\expnd0\expndtw0 di\kerning1\expnd-3\expndtw-12
+ \kerning1\expnd0\expndtw0 vista\kerning1\expnd-3\expndtw-14
+ \kerning1\expnd0\expndtw0 di\kerning1\expnd-3\expndtw-13
+ \kerning1\expnd0\expndtw0 efficiente\kerning1\expnd-3\expndtw-13
+ \kerning1\expnd0\expndtw0 utilizzazione\kerning1\expnd-3\expndtw-13
+ \kerning1\expnd0\expndtw0 dei\kerning1\expnd-3\expndtw-12
+ \kerning1\expnd0\expndtw0 canali\kerning1\expnd-3\expndtw-13
+ \kerning1\expnd0\expndtw0 trasmissivi,\kerning1\expnd-4\expndtw-16
+ \kerning1\expnd0\expndtw0 un\kerning1\expnd-3\expndtw-15
+ \kerning1\expnd0\expndtw0 modo\kerning1\expnd-3\expndtw-15
+ \kerning1\expnd0\expndtw0 di\kerning1\expnd-4\expndtw-17
+ \kerning1\expnd0\expndtw0 trasferimento\kerning1\expnd-3\expndtw-15
+ \kerning1\expnd0\expndtw0 a\kerning1\expnd-3\expndtw-14
+ \kerning1\expnd0\expndtw0 pacchetto\'85 \
+R: soprattutto quando le sorgenti di traffico sono prevalentemente\kerning1\expnd-4\expndtw-18
+ \kerning1\expnd0\expndtw0 intermittenti\
+QUESITO 1\
+D: Si supponga di avere un file di dimensione 200 kbyte. Se lo trasmetto attraverso una line che ha velocit\'e0 di 10 Mbit/s, quale deve essere il rapporto di compressione R tale per cui il file viene trasferito in meno di 4 ms?\
+R: R=50 da\
+QUESITO 7\
+D: nel caso di utilizzo dei codici CRC, in ricezione\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 R: se il polinomio i cui coefficienti sono i bit da proteggere seguiti del campo CRC \'e8 divisibile per il polinomio generatore si assumente che non vi siano stati errori\
+QUESITO 1\
+D: Quali delle seguenti sono funzioni specifiche dello strato di collegamento?\
+R: Il trasferimento dei bit informativi\
+QUESITO 3\
+D: L\'92instradamento da un host A ad un host B si dice indiretto se\
+R: \'e8 necessario attraversare almeno un router intermendio per inviare pacchetti da A a B, ovvero A e B non sono connessi alla medesima sottorete\
+QUESITO 4\
+D: perch\'e9 un pacchetto IP ha una lunghezza massima uguale a 65536 byte?\
+R: perch\'e9 il campo \'93length\'94 ha dimensione 16 bit e misura la lunghezza in byte\
+QUESITO 8\
+D: In quale delle seguenti modalit\'e0 \'e8 possibile utilizzare un dispositivo NAT allo scopo di aumentare l\'92efficienza di utilizzazione dello spazio di indirizzi pubblici assegnato ad una intranet?\
+QUESITO 9\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 D: Se un router X in una rete Ip utilizzante il protocollo OSPF gestisce un certo numero di interfacce di rete, quale sar\'e0 il numero massimo di pacchetti RIP di tipo \'93LSA\'94 che il router emetter\'e0 periodicamente allo scadere del timeout?\
+R: uguale al numero di interfacce di rete gestite dal router X\
+\
+\
+\
+QUESITO 10\
+D:\kerning1\expnd-2\expndtw-10
+ \kerning1\expnd0\expndtw0 Un\'92entit\'e0\kerning1\expnd-2\expndtw-9
+ \kerning1\expnd0\expndtw0 TCP\kerning1\expnd-2\expndtw-8
+ \kerning1\expnd0\expndtw0 A\kerning1\expnd-2\expndtw-7
+ \kerning1\expnd0\expndtw0 emette\kerning1\expnd-2\expndtw-8
+ \kerning1\expnd0\expndtw0 un\kerning1\expnd-2\expndtw-10
+ \kerning1\expnd0\expndtw0 segmento\kerning1\expnd-2\expndtw-10
+ \kerning1\expnd0\expndtw0 FIN\kerning1\expnd-2\expndtw-8
+ \kerning1\expnd0\expndtw0 per\kerning1\expnd-2\expndtw-9
+ \kerning1\expnd0\expndtw0 abbattere\kerning1\expnd-2\expndtw-8
+ \kerning1\expnd0\expndtw0 una\kerning1\expnd-2\expndtw-9
+ \kerning1\expnd0\expndtw0 connessione\kerning1\expnd-2\expndtw-8
+ \kerning1\expnd0\expndtw0 con\kerning1\expnd-2\expndtw-10
+ \kerning1\expnd0\expndtw0 un\'92altra\kerning1\expnd-2\expndtw-9
+ \kerning1\expnd0\expndtw0 entit\'e0\kerning1\expnd-2\expndtw-9
+ \kerning1\expnd0\expndtw0 TCP\kerning1\expnd-2\expndtw-8
+ \kerning1\expnd0\expndtw0 B;\kerning1\expnd-3\expndtw-11
+ \kerning1\expnd0\expndtw0 l\'92entit\'e0 A interrompe subito l\'92emissione dei suoi dati d\'92utente\kerning1\expnd-2\expndtw-7
+ \kerning1\expnd0\expndtw0 e\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 R: sollecita l\'92entit\'e0 TCP B a interrompere l\'92inoltro dei suoi dati d\'92utente\
+QUESITO 11\
+D: il meccanismo \'93fast retransmit\'94 ha effetto nel caso in cui l\'92entit\'e0 TCP ricevente scarti i segmenti fuori sequenza\
+R: no\
+QUESITO 16\
+D: perch\'e9 un host appena collegato ad una rete deve conoscere l\'92indirizzo di un router? \
+R: per poter effettuare l\'92assegnazione del proprio indirizzo IP\
+QUESITO 4\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 D: In una rete IP che utilizza il protocollo RIP, che tipo di conoscenza ha un router riguardo i percorsi verso .. sottorete?\
+R: conosce solo il peso dei possibili cammini verso le destinazioni e determinare l\'92indirizzo del router\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 QUESITO 12\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 D: Quale delle seguenti strategie \'e8 quella usata per risolvere a lungo termine il problema dell\'92esaurimento dello spazio di indirizzamento in IP?\
+R: adottare indirizzi IP di lunghezza pari a 128 bit\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 QUESITO 10\
+D: Quali delle seguenti affermazioni non \'e8 vera nel caso di uno swtich? \
+R: Non esegue funzionalit\'e0 di istradamento dei pacchetti IP\
+QUESITO 10\
+D: in una rete in area locale che adotta la tecnologia IEEE 802.3 un Repeater (o Hub) \
+R: rivela le collisioni e le ritrasmette su tutte le porte\
+QUESITO 12\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 D: perch\'e9 il servizio offerto da una rete IP \'e8 detto \'93best effort\'94\
+R: perch\'e9 una rete IP non offre alcun livello garantito di qualit\'e0 del trasferimento\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 QUESITO 13\
+D: In una rete centralizzata dal prefisso 151.168.0.0/32 quanti host possono essere indirizzati al massimo= \
+R: 1\
+\pard\pardeftab720\partightenfactor0
+\cf2 \expnd0\expndtw0\kerning0
+QUESITO 12\uc0\u8232 D: Si supponga che in una connessione TCP tra due Host A e B il bit rate di trasmissione sia uguale a 2 Mbit/s e che il tempo di propagazione tra A e B sia costante a 100 ms. Nell\'92 ipotesi che siano nulle le lunghezze degli header dei segmenti TCP e dei datagrammi IP, quale valore dovrebbe assumere al minimo la finestra n trasmissione affinch\'e9 il throughput della connessione fosse unitario?\u8232 R: 50000 byte\u8232 QUESITO 11\u8232 D: In internet, un Host e un processo applicativo su questo residente possono essere individuati con:\u8232 R: un indirizzo Ip e un socket, rispettivamente \
+QUESITO (forse) \
+D: Quali delle seguenti funzioni pu\'f2 avvenire durante la fase di instaurazione di una connessione? \
+R: controllo della compatibilit\'e0 tra i sistemi terminali impegnati nella comunicazione\uc0\u8232 Forse: rilascio delle risorse di rete necessarie al trasferimento informatico\u8232 QUESITO 9 \
+D: Nello scambio informativo tra due entit\'e0 di strato n, che cosa rappresentano le Service Data unit (SDU)? \
+R: le unit\'e0 dati consegnate dallo strato superiore che lo strato n deve trasferire a destinazione \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 \kerning1\expnd0\expndtw0 \
+\
+\
+\
+QUESITO 6\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 D: Ad un grande internet provider (ISP) sono stati assegnati un insieme di 8192 blocchi contigui di indirizzi di classe C a partire dall\'92indirizzo 193.0.0.0, Questo ISP gestisce un insieme di 4 provider di minori dimensioni indicati con A,B,C,D, la richiesta minima di questi provider \'e8 di NA=4, NB=8, NC=64, ND=128 blocchi  di indirizzi di classe C. Supponendo che l\'92ISP assegni blocchi di indirizzi contigui ad ogni provider a partire dal provider A ed in modo che ogni provider sia caratterizzato da un unico prefisso, qual \'e8 il prefisso che sar\'e0 assegnato al router del provider C\
+R: 193.0.64.0/19\
+QUESITO 20\
+D: Si consideri una connessione TCP tra due Host A e B. L\'92emissione e la ricezione dei segmenti da parte dell\'92host A avviene in accordo alla sequenza indicata in tabella che indica i valori dei campi Sequence number (SN) e l\'92ammontare dei byte (lenght) emessi dall\'92host A verso l\'92host B e il valore dei campi ACK number e Window dei segmenti emessi dall\'92host B verso l\'92host A.\
+Nell\'92ulteriore segmento di riscontro che l\'92host B emetter\'e0 verso l\'92host A, quale valore dovr\'e0 essere indicato nel campo window se l\'92host B vuole concedere 50 ulteriori autorizzazioni (rispetto a quanto gi\'e0 autorizzato) a trasmettere nell\'92host A\
+R: 100  (300- (200+50) = 50 + 50 ulteriori).\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 QUESITO 6\
+D: Siamo date le 4 stringhe di 4 bit riportate di seguito: b1) 1001; b2) 1111; b3) 0110; b4) 1010. Qual e\'92 la parola di codice calcolata mediante l\'92internet checksum?\
+R: 0101.\
+QUESITO 8\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 D:La modalit\'e0 selective repeat:\
+\pard\tx540\pardeftab720\li539\fi-539\pardirnatural\qj\partightenfactor0
+\cf0 R:prevede che la finestra di emissione e la finestra di ricezione siano entrambe di dimensione maggiore di 1.\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 QUESITO 10\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 D: Un router \'e8 in grado di rivelare errori di trasmissione nel campo "Data" di un datagramma IP ?\
+\pard\tx540\pardeftab720\li539\fi-539\pardirnatural\qj\partightenfactor0
+\cf0 R: no, in nessun caso.\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 QUESITO 12\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 D: L\'92indirizzamento in IP\
+\pard\tx540\pardeftab720\li539\fi-539\pardirnatural\qj\partightenfactor0
+\cf0 R: \'e8 la funzione che assegna identificativi univoci ad ogni sistema IP.\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 QUESITO 13\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 D:In una rete caratterizzata dal prefisso 151.168.0.0/23, quanti host possono essere indirizzati al massimo ?\
+\pard\tx540\pardeftab720\li539\fi-539\pardirnatural\qj\partightenfactor0
+\cf0 R:512.\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 QUESITO 13
+\fs28 \
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+
+\fs24 \cf0 D:Qual \'e8 il numero massimo di sottoreti che in cui pu\'f2 essere suddivisa una rete a cui \'e8 stato assegnato un indirizzo di classe C utilizzando un prefissi di lunghezza 27 bit ?\
+\pard\tx540\pardeftab720\li539\fi-539\pardirnatural\qj\partightenfactor0
+\cf0 R: 8\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 QUESITO 14\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 D: Ad un grande internet service provider [ISP] sono stati assegnati un insieme di 8192 blocchi contigui di indirizzi di classe C a partire dall'indirizzo 193.0.0.0. Questo ISP gestisce un insieme di 4 provider di minori dimensioni indicati con A, B, C, D, la richiesta minima di questi provider \'e8 di NA=4, NB=8, NC=64, ND=128 blocchi di indirizzi di classe C. Supponendo che l'ISP assegni blocchi di indirizzi contigui ad ogni provider a partire dal provider A ed in modo che ogni provider sia caratterizzato da un unico prefisso, qual \'e8 il prefisso che sar\'e0 assegnato al router del provider C.\
+\pard\tx540\pardeftab720\li539\fi-539\pardirnatural\qj\partightenfactor0
+\cf0 R: 193.0.64.0/19\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 \
+\
+\
+\
+\
+\
+QUESITO 15\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 D: Si consideri un router che ha la seguente routing table\
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clminw4320 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalt \clshdrawnil \clminw4320 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Prefisso\cell 
+\pard\intbl\itap1\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Porta d'uscita\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clminw4320 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalt \clshdrawnil \clminw4320 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 144.12.41.0/28\cell 
+\pard\intbl\itap1\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 1\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clminw4320 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalt \clshdrawnil \clminw4320 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 144.12.41.4/30\cell 
+\pard\intbl\itap1\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 2\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clminw4320 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalt \clshdrawnil \clminw4320 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 144.12.41.13/27\cell 
+\pard\intbl\itap1\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 3\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clminw4320 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalt \clshdrawnil \clminw4320 \clbrdrt\brdrs\brdrw20\brdrcf3 \clbrdrl\brdrs\brdrw20\brdrcf3 \clbrdrb\brdrs\brdrw20\brdrcf3 \clbrdrr\brdrs\brdrw20\brdrcf3 \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 144.12.41.16/28\cell 
+\pard\intbl\itap1\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 4\cell \lastrow\row
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 verso quale porta verr\'e0 rilanciato un pacchetto entrante che rechi un destination address uguale a 144.12.41.8\
+R: 1\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 QUESITO 17\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 D: Quali delle seguenti affermazioni non \'e8 un vantaggio della tecnica di flooding dei pacchetti LSA\
+\pard\tx540\pardeftab720\li539\fi-539\pardirnatural\qj\partightenfactor0
+\cf0 R: permette ad un router di ricevere con elevata probabilit\'e0 almeno una copia di ogni pacchetto LSA emesso da qualsiasi altro router\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 QUESITO 7 \
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 D: Con riferimento ad un protocollo di strato di collegamento, la prima operazione svolta dal ricevitore appena delimitata una trama consiste nel\
+\pard\tx540\pardeftab720\li539\fi-539\pardirnatural\qj\partightenfactor0
+\cf0 R: verificare la correttezza della trama ricevuta, utilizzando il campo di controllo di errore.\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 QUESITO 8 \
+D: La modalit\'e0 Stop-and-Wait:\
+\pard\tx540\pardeftab720\li539\fi-539\pardirnatural\qj\partightenfactor0
+\cf0 R: prevede che la finestra di emissione e la finestra di ricezione siano entrambe di dimensione uguale ad 1\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 QUESITO 9 \
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 D:Nello Standard Ethernet, per le reti locali con topologia a bus, il protocollo di accesso multiplo definito \'e8 il\
+\pard\tx540\pardeftab720\li539\fi-539\pardirnatural\qj\partightenfactor0
+\cf0 R:Carrier Sense Multiple Access with Collision Detection (CSMA/CD)\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 QUESITO 10\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 D: Quale azione viene intrapresa da un router se l'header di un datagramma viene rivelato affetto da errore ?\
+\pard\tx540\pardeftab720\li539\fi-539\pardirnatural\qj\partightenfactor0
+\cf0 R: il datagramma \'e8 scartato\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 QUESITO 11\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 D:Rispetto alla tecnica del Subnetting con maschere di lunghezza fissa, quella che impiega maschere di lunghezza variabile\
+\pard\tx540\pardeftab720\li539\fi-539\pardirnatural\qj\partightenfactor0
+\cf0 R:risulta in generale pi\'f9 efficiente nell\'92assegnazione degli indirizzi\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 QUESITO 13\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 D: In una rete caratterizzata dal prefisso 192.151.22.0/25, quanti host possono essere indirizzati al massimo ?\
+\pard\tx540\pardeftab720\li539\fi-539\pardirnatural\qj\partightenfactor0
+\cf0 R:	128\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 QUESITO 13\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 D:Quante sono le sottoreti che al massimo possono essere indirizzate a partire da un indirizzo di classe C utilizzando la seguente maschera: 255.255.255.128\
+\pard\tx540\pardeftab720\li539\fi-539\pardirnatural\qj\partightenfactor0
+\cf0 R: 2\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 QUESITO 14\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 D: A partire dagli indirizzi identificati dai seguenti blocchi: 130.10.0.0/20, 130.10.32.0/19 e 130.10.16.0/20, identificare il prefisso da assegnare alla rete che comprende le reti a cui sono stati assegnati tali blocchi:\
+\pard\tx540\pardeftab720\li539\fi-539\pardirnatural\qj\partightenfactor0
+\cf0 R: 130.10.0.0/18\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 QUESITO 15\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 D:Si consideri un router che ha la seguente routing table\
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clminw1985 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalt \clshdrawnil \clminw1985 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Prefisso\cell 
+\pard\intbl\itap1\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 Porta d'uscita\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clminw1985 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalt \clshdrawnil \clminw1985 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 149.80.79.0/20\cell 
+\pard\intbl\itap1\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 1\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clminw1985 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalt \clshdrawnil \clminw1985 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 215.80.90.0/21\cell 
+\pard\intbl\itap1\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 2\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clminw1985 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalt \clshdrawnil \clminw1985 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 149.135.25.0/8\cell 
+\pard\intbl\itap1\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 3\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clminw1985 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalt \clshdrawnil \clminw1985 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 150.80.75.0/20\cell 
+\pard\intbl\itap1\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 4\cell \row
+
+\itap1\trowd \taflags1 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clshdrawnil \clminw1985 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadl100 \clpadr100 \gaph\cellx4320
+\clvertalt \clshdrawnil \clminw1985 \clbrdrt\brdrs\brdrw20\brdrcf4 \clbrdrl\brdrs\brdrw20\brdrcf4 \clbrdrb\brdrs\brdrw20\brdrcf4 \clbrdrr\brdrs\brdrw20\brdrcf4 \clpadl100 \clpadr100 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 149.80.110.0/7\cell 
+\pard\intbl\itap1\pardeftab720\pardirnatural\qc\partightenfactor0
+\cf0 5\cell \lastrow\row
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 verso quale porta verr\'e0 rilanciato un pacchetto entrante che rechi un destination address uguale a 149.80.80.0\
+\pard\tx540\pardeftab720\li539\fi-539\pardirnatural\qj\partightenfactor0
+\cf0 R: 	3\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 QUESITO 17\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 D: Nel protocollo OSPF, quali sono le azioni che compie un router che riceve sull'interfaccia x un LSA gi\'e0 ricevuto\
+\pard\tx540\pardeftab720\li539\fi-539\pardirnatural\qj\partightenfactor0
+\cf0 R: scarta l\'92LSA e non lo rilancia\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 QUESITO 17\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 D: Per quale motivo nel protocollo RIP si impiega la tecnica "Split Horizon" ?\
+\pard\tx540\pardeftab720\li539\fi-539\pardirnatural\qj\partightenfactor0
+\cf0 R: per diminuire il tempo di convergenza in caso di variazioni di stato della rete\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 QUESITO 18\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 D: Un\'92entit\'e0 TCP A apre la procedura di instaurazione di una connessione con un Initial Sequenze Number (ISN)=15028; la controparte B replica con un ISN=274. Quali sono i contenuti dei due campi Sequence Number (SN) e Acknowledgment Number (AN) nel segmento emesso dall\'92entit\'e0 A per concludere la procedura (terzo segmento nella procedura di instaurazione della connessione)?\
+\pard\tx540\pardeftab720\li539\fi-539\pardirnatural\qj\partightenfactor0
+\cf0 R: SN=15029 e AN 275\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 QUESITO 19\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 D:In un datagramma IP contenente un segmento UDP si ha che i campi "HLEN" e "Length" dell'header del datagramma IP hanno valore HLEN=5 e Length=1044, mentre il campo "Length" dell'header del segmento UDP ha valore uguale a 1024, qual \'e8 la lunghezza in byte del campo dati del segmento UDP ?\
+\pard\tx540\pardeftab720\li539\fi-539\pardirnatural\qj\partightenfactor0
+\cf0 R: 1016\
+QUESITO 7\
+\pard\tx8640\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 D:In una procedura di recupero d\'92errore ARQ, si adotta un modulo di numerazione uguale a 8. Si ipotizza che una delle due entit\'e0 (B) utilizzi una finestra in ricezione di larghezza unitaria. Come reagisce B ricevendo da A una PDU riconosciuta non corretta (a seguito di errori nella trasmissione)?\
+\pard\tx540\pardeftab720\li539\fi-539\pardirnatural\qj\partightenfactor0
+\cf0 R:	Si limita a scartare la PDU.\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 QUESITO 9\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 D: Con riferimento al protocollo Spanning Tree \'e8 possibile affermare che\
+R: influenza il processo di inoltro delle MAC PDU degli Switch della rete\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 QUESITO 9\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 D: Durante la procedura di selezione della designated port prevista nel protocollo Spanning Tree, per una LAN, uno switch collegato alla LAN determina di essere lo switch designated \
+\pard\tx540\pardeftab720\li539\fi-539\pardirnatural\qj\partightenfactor0
+\cf0 R: in base ad informazioni memorizzate al suo interno ed informazioni contenute nelle Configuration BPDU (Switch Protocol Data Unit) inviate dai switch collegati alla LAN  \
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 QUESITO 11\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 D: Alla richiesta di assegnare gli indirizzi 101.99.0.4 e 193.201.87.9 ad un host, la risposta \'e8\
+\pard\tx540\pardeftab720\li539\fi-539\pardirnatural\qj\partightenfactor0
+\cf0 R: \'e8 possibile se l\'92host ha almeno due interfacce verso sotto-reti esterne.\
+\pard\pardeftab720\pardirnatural\partightenfactor0
+\cf0 QUESITO 12\
+\pard\pardeftab720\pardirnatural\qj\partightenfactor0
+\cf0 D: Un host di una inter-rete IP con indirizzo IP=A accetta un datagramma con indirizzo di destinazione DST\
+\pard\tx540\pardeftab720\li539\fi-539\pardirnatural\qj\partightenfactor0
+\cf0 R: sempre; \'e8 lo strato di trasporto che si incarica di filtrare l\'92informazione effettivamente destinata all\'92host.}
